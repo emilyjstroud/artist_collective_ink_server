@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
               ('location', models.CharField(max_length=50)),
               ('website', models.URLField()),
               ('photo', models.URLField())
-          ],
+          ]
       ),
       migrations.CreateModel(
         name='Artist',
